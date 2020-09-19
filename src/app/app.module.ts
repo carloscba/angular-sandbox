@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { ReactiveComponent } from './components/reactive/reactive.component';
 import { SubjectComponent } from './components/subject/subject.component';
+import { RxjsModule } from './rxjs/rxjs.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SubjectComponent } from './components/subject/subject.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RxjsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
